@@ -27,10 +27,10 @@ pipeline {
                             type: 'war'
                         ]
                     ], 
-                    credentialsId: 'nexus3', 
+                    credentialsId: 'nexus2', 
                     groupId: 'in.javahome', 
                     nexusUrl: 'http://15.207.20.56:8081', 
-                    nexusVersion: 'nexus3', 
+                    nexusVersion: 'nexus2', 
                     protocol: 'http', 
                     repository: 'http://15.207.20.56:8081/repository/simple-app-release', 
                     version: "${mavenPom.version}"
